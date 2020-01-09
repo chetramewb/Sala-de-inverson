@@ -370,6 +370,7 @@ small a {
 	text-decoration: none !important;
 	line-height: 31px;
 	color:#f38820;
+	display:block;
 }
 .sidebar small::before {
 	position: absolute;
@@ -635,4 +636,135 @@ footer {
 
 footer ul li a:hover {
 	color: #f38820;
+}
+
+
+/*****/
+
+.firstul {
+	padding-left: 0px;
+	display: block;
+	width: 50%;
+	display: inline;
+}
+
+
+.firstul li {
+	display: inline;
+	padding: 0px 5px;
+}
+
+.firstul li a {
+	font-size: 14px;
+	color: #818181;
+	line-height: 31px;
+	text-decoration: none;
+}
+
+.firstul-second {
+	float: right;
+}
+
+.firstul-second li {
+	display: inline;
+	padding: 0px 5px;
+}
+
+.firstul-second li a {
+	font-size: 14px;
+	color: #818181;
+	line-height: 31px;
+	text-decoration: none;
+}
+
+#tab-mix {
+	width: 100%;
+	display: block;
+	padding-top: 50px;
+}
+
+.tab-first-heading ul li {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 31px;
+	padding: 0p;
+	/* padding-right: 105px; */
+	background: #efefef;
+	padding: 10px;
+	margin: 2%;
+	list-style: none;
+}
+
+.tab-first-heading ul {
+	padding-left: 0px;
+}
+
+.tab-first-heading ul li a {
+	font-size: 12px;
+	font-weight: 500;
+	color: gray;
+	text-decoration: none;
+}
+
+
+#form-center {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 30px;
+	text-align: center;
+}
+
+#form-center h2 {
+	font-size: 24px;
+	line-height: 48px;
+}
+
+.form-heading {
+	float: left;
+	display: block;
+	width: 50%;
+}
+
+.e-mail{
+	border: navajowhite;
+	border-bottom: 1px solid red;
+	width: 30%;
+}
+
+.e-mail {
+	border: navajowhite;
+	border-bottom: 2px solid aliceblue;
+	width: 30%;
+}
+
+.submitt-btn {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 24px;
+	background: orange;
+	padding: 15px 30px;
+	color: white !important;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: none;
+}
+
+.form-centered {
+	position: absolute;
+	right: 279px;
+	top: 80px;
+	background: transparent;
+}
+
+.submitt-btn {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 24px;
+	background: orange;
+	padding: 13px 30px;
+	color: white !important;
+	text-transform: uppercase;
+	border-radius: 5px;
+	border: none;
 }
