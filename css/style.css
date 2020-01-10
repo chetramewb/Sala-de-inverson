@@ -469,13 +469,18 @@ small a {
 	
 	
 	
+		
 	#banner-spot {
 		width: 100%;
 		display: block;
 		overflow: hidden;
-		padding: 50px 0px;
-	}	
+		padding: 0px 0px 50px;
+	}
 
+	 .hhhh h2 {
+		margin-bottom: 20px;
+		font-size: 30px;
+	}
 
 	.banner-spot-heading {
 		width: 347px;
